@@ -1,0 +1,87 @@
+name: fooduuser
+description: User.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  animated_splash_screen: ^1.1.0
+  awesome_dialog: ^2.1.0
+  badges: ^2.0.1
+  cached_network_image: ^3.0.0
+  cloud_firestore: ^2.2.2
+  connectivity: ^3.0.6
+  cupertino_icons: ^1.0.3
+  filesize: ^2.0.1
+  firebase_auth: ^1.4.1
+  firebase_core: ^1.3.0
+  firebase_storage: ^8.1.3
+  flare_loading: ^3.0.0
+  flutter_cart: ^0.0.5+1
+  flutter_luban: ^0.1.13
+  form_validator: ^0.1.7
+  geocoder: ^0.2.1
+  geolocator: ^7.1.0
+  get: ^4.1.4
+  google_fonts: ^2.1.0
+  google_maps_flutter: ^2.0.6
+
+  hive: ^2.0.4
+  hive_flutter: ^1.0.0
+  image_picker: ^0.8.0+3
+  intl_phone_field: ^2.0.0
+  material_floating_search_bar: ^0.3.4
+  nice_intro: ^0.1.4
+  pandabar: ^0.1.1
+  path_provider: ^2.0.2
+  pin_code_fields: ^7.2.0
+  responsive_framework: ^0.1.2
+  roundcheckbox: ^2.0.1
+  settings_ui: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.9.0
+  flutter_native_splash: ^1.2.0
+  flutter_rename_app: ^1.0.0
+
+dependency_overrides:
+  yaml: ^3.1.0
+  args : 2.0.0
+  google_fonts : ^1.1.0
+  http : ^0.13.0
+
+flutter_rename_app:
+  application_name: Foodu User
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: false
+  image_path: "assets/launchericon/ic_launcher.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/launchericon/
+    - assets/Introimages/
+    - assets/animations/ordersuccess.flr
